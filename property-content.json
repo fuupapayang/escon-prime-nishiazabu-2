@@ -3,18 +3,18 @@
   "tokens": {
     "HOME_HERO_EYEBROW": "PRIVATE RESIDENCE",
     "HOME_CONCEPT_HEADING_HTML": "静けさという、<br>最上の贅沢。",
-    "HOME_CONCEPT_LEAD_HTML": "選ばれた立地に、時を超えて受け継がれる住まいを。<br>上質な素材、緻密な設計、そして一邸一邸に寄り添うコンシェルジュサービス。暮らしのすべてに、揺るぎない品格を宿しました。",
+    "HOME_CONCEPT_LEAD_HTML": "南青山・表参道・広尾・六本木に囲まれた、希少性の高い立地に。<br>HERITAGE AND THE SPIRIT OF CRAFTMANSHIP——受け継がれてきた職人の精神を、これからの住まいへ。",
     "HOME_FEAT1_TITLE": "稀少な立地",
-    "HOME_FEAT1_BODY": "西麻布ならではの、唯一無二のロケーション。",
-    "HOME_FEAT2_TITLE": "邸宅品質",
-    "HOME_FEAT2_BODY": "細部まで磨き上げた、ゆとりある専有空間と共用施設。",
+    "HOME_FEAT1_BODY": "表参道・六本木・広尾の3駅へ、いずれも徒歩15分圏内。",
+    "HOME_FEAT2_TITLE": "継承される真髄",
+    "HOME_FEAT2_BODY": "ものづくりの精神を受け継ぐ、クラフトマンシップ。",
     "HOME_DESIGN_HEADING_HTML": "端正な意匠と、<br>心地よい共用空間。",
     "HOME_LOCATION_HEADING_HTML": "ここにしかない、<br>西麻布という暮らし。",
     "HOME_LOC_ALT_MAIN": "周辺の風景",
-    "HOME_LOC_ALT_1": "周辺エリアA",
-    "HOME_LOC_CAP_1": "エリアAへ",
-    "HOME_LOC_ALT_2": "周辺エリアB",
-    "HOME_LOC_CAP_2": "エリアBへ",
+    "HOME_LOC_ALT_1": "周辺マップ（略図）",
+    "HOME_LOC_CAP_1": "周辺マップ（略図）",
+    "HOME_LOC_ALT_2": "都心の夜景",
+    "HOME_LOC_CAP_2": "都心の利便性と、文化・トレンドを享受する暮らし",
     "HOME_MERIT4_BODY": "西麻布の魅力をお届け"
   }
 }
