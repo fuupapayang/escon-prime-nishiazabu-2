@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- PLACEHOLDER property logo (text). Replace with the official white logo SVG. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120"><text x="260" y="78" text-anchor="middle" font-family="Georgia,'Hiragino Mincho ProN',serif" font-size="64" letter-spacing="3" fill="#fff">Nishi Azabu</text></svg>
+<!-- ES CON symbol (white, transparent). Source: Figma "Ikiiki0002 エスコン無人対応ボット" > アイコン > A02. Replace with the official property logo when available. -->
+<svg width="600" height="451" viewBox="0 0 600.002 451.042" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M114.635 150.326V185.335H2.86812V2.01936H114.635V36.7675H41.1986V75.2282H106.005V107.664H41.1986V150.326H114.635Z" fill="#FFFFFF"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 435.15V395.159C18.5953 408.283 37.2883 414.373 52.0734 414.373C69.0078 414.373 76.7586 406.361 76.7586 396.689C76.7586 366.272 0 374.674 0 318.4C0 288.211 22.5358 263.656 63.667 263.656C83.1416 263.656 100.532 269.616 111.735 277.399V316.348C97.3404 304.755 80.4711 298.665 66.3374 298.665C48.7516 298.665 41.6196 307.425 41.6196 315.827C41.6196 343.606 120.821 338.754 120.821 396.95C120.821 429.549 96.1355 451.042 55.7534 451.042C35.888 451.042 15.9249 445.832 0 435.15Z" fill="#FFFFFF"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M590.46 12.3426V44.2901C580.527 35.7577 563.984 28.6583 544.379 28.6583C504.518 28.6583 477.423 57.805 477.423 95.6144C477.423 133.684 504.908 157.881 541.578 157.881C561.183 157.881 580.527 150.977 590.59 141.175V172.894C580.039 181.557 559.783 187.386 537.768 187.386C483.024 187.386 444.824 151.628 444.824 96.8845C444.824 42.4012 482.763 0 541.187 0C563.593 0 582.058 6.22015 590.46 12.3426Z" fill="#FFFFFF"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M600.002 265.675V449.023H595.052L474.98 332.273V449.023H444.824V265.675H449.774L569.976 382.685V265.675H600.002Z" fill="#FFFFFF"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M371.677 142.575L362.689 133.554L187.775 308.467L196.796 317.488L371.677 142.575Z" fill="#FFFFFF"/>
+</g>
+</svg>

@@ -1,6 +1,6 @@
 /* プライム西麻布 Service Worker: app-shell offline cache + web push (base-path & cross-origin-API safe) */
 importScripts('config.js'); // sets self.GENTEI_CONFIG / gUrl / gApi (resolved relative to this file => site root)
-const VERSION = 'escon-prime-nishiazabu-2-v4';
+const VERSION = 'escon-prime-nishiazabu-2-v5';
 const BASE = new URL('./', self.location.href).pathname; // "/" locally, "/<repo>/" on GitHub Pages
 const P = p => BASE + p.replace(/^\//, '');
 const SHELL = ['/', '/index.html', '/register.html', '/install.html', '/app.css', '/app.js', '/config.js',
