@@ -1,6 +1,6 @@
 /* プライム西麻布 Service Worker: app-shell offline cache + web push (base-path & cross-origin-API safe) */
 importScripts('config.js'); // sets self.GENTEI_CONFIG / gUrl / gApi (resolved relative to this file => site root)
-const VERSION = 'escon-prime-nishiazabu-2-v3';
+const VERSION = 'escon-prime-nishiazabu-2-v4';
 const BASE = new URL('./', self.location.href).pathname; // "/" locally, "/<repo>/" on GitHub Pages
 const P = p => BASE + p.replace(/^\//, '');
 const SHELL = ['/', '/index.html', '/register.html', '/install.html', '/app.css', '/app.js', '/config.js',
@@ -82,8 +82,9 @@ self.addEventListener('push', e => {
     body: d.body || '新しい限定情報が届いています',
     icon: P('/icons/icon-192.png'),
     badge: P('/icons/favicon-32.png'),
-    tag: d.id || 'gentei',
-    data: { url: target, id: d.id || '' }
+    tag: d.pushId || d.id || ('gentei-' + Date.now()),
+    renotify: true,
+    data: { url: target, id: d.pushId || d.id || '' }
   }));
 });
 
