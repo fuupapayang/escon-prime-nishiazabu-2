@@ -216,7 +216,9 @@ async function vPushes(v) {
   });
 }
 /* ---------- instant push (free plan): queue in Firestore + start the GitHub Actions sender right away ---------- */
-const GH_TOKEN_KEY = 'gentei.ghToken';
+// localStorage is shared by every repo under <owner>.github.io, so the key carries the repo name; a shared key made a new
+// property's admin reuse another property's token (403). Custom domains / localhost have no repo segment.
+const GH_TOKEN_KEY = 'gentei.ghToken' + (/\.github\.io$/.test(location.hostname) ? ':' + (location.pathname.split('/')[1] || '') : '');
 const askToken = (repo) => new Promise(res => {
   let done = false; const fin = (v, close) => { if (done) return; done = true; close(); res(v); };
   modal({ title: 'GitHubトークンの入力(初回のみ)',
