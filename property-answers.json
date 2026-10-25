@@ -1,0 +1,14 @@
+{
+  "appName": "エスコン プライムサイト 西麻布",
+  "appShortName": "プライム西麻布",
+  "propertyName": "（仮称）港区西麻布2丁目プロジェクト",
+  "propertyTagline": "HERITAGE AND THE SPIRIT OF CRAFTMANSHIP",
+  "areaName": "西麻布",
+  "propertySiteUrl": "https://vs.qlea.com/escon/primemembership/project/nishiazabu-2/",
+  "repoName": "escon-prime-nishiazabu-2",
+  "firebaseProjectId": "escon-prime-nishiazabu-2-2026",
+  "adminEmails": [
+    "escon_prime_nishiazabu@ikiiki.com"
+  ],
+  "themeColor": "#111111"
+}
